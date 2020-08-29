@@ -1,9 +1,18 @@
 
 h1 {
-  position: relative
+  position: relative;
   color: white;
   background: lightblue;
   padding-left: 60px;
+}
+
+h3 {
+  font-family: sans-serif;
+  color: black;
+}
+
+p {
+  color: darkgray;
 }
 
 aside {
@@ -11,6 +20,4 @@ aside {
   padding-left: 15px;
   margin-left: 15px;
   float: right;
-  font-style: italic;
-  background-color: lightgray;
 }
