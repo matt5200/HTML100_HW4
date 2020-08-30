@@ -3,6 +3,11 @@ h1 {
   margin: 0rem;
 }
 
+
+body {
+  font-family: sans-serif;
+}
+
 .article {
   padding-bottom: 25px;
   padding-left: 100px;
@@ -18,21 +23,16 @@ h1 {
   padding-left: 100px;
 }
 
-.small {
-  font-size: small;
-  color: white;
-}
 
 .nav-light {
   padding-top: 25px;
   padding-bottom: 25px;
   padding-left: 100px;
   margin-bottom: 60px;
-  color: black;
   font-size: medium;
   font-weight: bold;
   background: #EBEBEB;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav-light a {
@@ -79,8 +79,26 @@ aside {
 
 footer {
   color: white;
+  margin-top: 40px;
   padding-top: 100px;
   padding-bottom: 100px;
   background: rgb(71, 69, 69);
   text-align: center;
+}
+
+.foot {
+  color: white;
+}
+
+.special-margin {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-element-margin {
+  margin-bottom: 30px;
+}
+
+footer a {
+  color: white
 }
